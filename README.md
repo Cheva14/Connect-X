@@ -4,7 +4,7 @@
 
 ## Overview
 
-For this project I implemented the game [Connect 4](https://kevinshannon.dev/connect4) in C, Scheme, Javascript, and Ruby. 
+For this project I implemented the game [Connect 4](https://kevinshannon.dev/connect4) in C, Scheme, Javascript, Ruby, and C#. 
 
 I added two additional features:
 1. The size of the board is configurable.
@@ -14,7 +14,7 @@ I added two additional features:
 ## Objectives
 
 This project has two main objectives
-1. Review C, Scheme, Javascript, and Ruby.
+1. Review C, Scheme, Javascript, Ruby, and C#.
 2. Serve as a project to which I can compare programming languages
 
 
