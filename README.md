@@ -20,7 +20,7 @@ This project has two main objectives
 
 ## Interface
 
-When running the game, you have to follow this interface:
+Running the game:
 1. The command line take two optional parameters:
    1. board size in the form `rowsxcolumns` (e.g., `6x7`)
    2. the number of checkers in a row needed to win (i.e, the _win length_)
