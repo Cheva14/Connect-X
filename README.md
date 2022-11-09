@@ -15,11 +15,7 @@ I added two additional features:
 
 This project has two main objectives
 1. Review C, Scheme, Javascript, and Ruby.
-2. Serve as a baseline to which you can compare other languages
-
-In particular, think about the following as you write your code:
-1. In what ways does C's static typing make the code more difficult and or verbose than necessary?
-2. What features could be added to C to make it easier to reuse code (i.e., better apply the DRY principle)?
+2. Serve as a project to which I can compare programming languages
 
 
 ## Interface
