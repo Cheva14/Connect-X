@@ -25,7 +25,8 @@ if ARGV.length >= 2
   if ARGV[1].strip =~ /^(\d+)$/
     win_length = $1.to_i
   else
-    puts "Win length must be an integer"
+    puts "Win length must be an integer
+       "
     exit
   end
 end
