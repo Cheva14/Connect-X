@@ -27,6 +27,6 @@ Playing the game:
    (For example `./c4 9x13 6` will launch a game with 9 rows, 13 columns, and a win length of 6.)
 2. If the user doesn't supply one or more optional parameters, the default board size is 6x7 and the default win length is 4.
 3. When a player wins, a print message <code>Congratulations, Player <em>x</em>. You win.</code> then exit.
-4. The columns are labeled with letters beginning with `A`.  To make a move, each player enters the letter of the desired column and hits enter. The program accepts both upper-case and lower-case entries.
+4. The columns are labeled with letters beginning with `A` up to 20 columns.  To make a move, each player enters the letter of the desired column and hits enter. The program accepts both upper-case and lower-case entries.
 5. Given an invalid input (not a letter, letter too large, column is full, etc.), The game prints a error message and prompt the user again.
 6. If the user enters `q`, The game prints `Goodbye.` and terminate the program.
