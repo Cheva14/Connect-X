@@ -71,6 +71,7 @@ void set_cond(char *board_size, int winC) // set the right columns/rows/win-cond
     else
     {
         printf("error creating board dimensions");
+        exit(0);
     }
 }
 
@@ -194,7 +195,6 @@ void choose() // check for user input column is valid
             exit(0);
         default:
             bin = 666;
-            printf("Invalid input.\tPlease try again.");
         }
 
         if ((bin >= 0 && bin < col) && (scores[bin] == '.'))

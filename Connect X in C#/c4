@@ -1,0 +1,1 @@
+mono src/c4.exe "$@"

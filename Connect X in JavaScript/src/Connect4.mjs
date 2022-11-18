@@ -155,12 +155,12 @@ export default class Connect4 {
           this.quit();
         default:
           bin = 666;
-          console.log("Invalid input. please try again.");
+
       }
       if (
         bin >= 0 &&
         bin < this.#numCols &&
-        this.#board[0 * this.#numCols + bin] == "."
+        this.#board[bin] == "."
       ) {
         this.fillBin(bin);
         if (this.#player == "1") {

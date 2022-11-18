@@ -6,6 +6,7 @@ OPT = -optimize+
 all:
 	$(CSHARP) $(OPT) $(MAIN_CLASS) $(PARTIAL_CLASSES)
 
+
 run:
 	mono src/c4.exe
 
